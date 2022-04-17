@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pet</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dialog_message_quit_message">確定要離開嗎？</string>
+    <string name="dialog_message_yes_text">確定</string>
+    <string name="dialog_message_no_text">取消</string>
+    <string name="dialog_message_login_failed">登入失敗。</string>
+    <string name="dialog_message_ok_text">確定</string>
+    <string name="get_started">開始</string>
+    <string name="dialog_message_firebaseAuthUserCollisionException">此信箱已被註冊過。</string>
+    <string name="dialog_message_logout_message">確定要登出嗎？</string>
+    <string name="dialog_message_field_empty">欄位不得為空</string>
+    <string name="dialog_message_password_length_error">密碼至少須由8個字元組成</string>
+    <string name="dialog_message_password_format_error">密碼須包含英文和數字</string>
+    <string name="dialog_message_confirm_password_error">確認密碼須和密碼相同</string>
+    <string name="dialog_message_password_length_error_ok">✓ 密碼至少須由8個字元組成</string>
+    <string name="dialog_message_password_format_error_ok">✓ 密碼須包含英文和數字</string>
+    <string name="dialog_message_confirm_password_error_ok">✓ 確認密碼須和密碼相同</string>
+    <string name="dialog_message_password_length_error_no">X 密碼至少須由8個字元組成</string>
+    <string name="dialog_message_password_format_error_no">X 密碼須包含英文和數字</string>
+    <string name="dialog_message_confirm_password_error_no">X 確認密碼須和密碼相同</string>
+    <string name="dialog_message_sign_up_failed">註冊失敗，請檢查欄位資料後再試一次！</string>
+    <string name="dialog_message_sign_up_succeed">註冊成功！</string>
+    <string name="dialog_message_error_occurred">發生錯誤。</string>
+    <string name="dialog_message_login_failed_check_field">登入失敗，請檢查您的Email和密碼。</string>
+</resources>

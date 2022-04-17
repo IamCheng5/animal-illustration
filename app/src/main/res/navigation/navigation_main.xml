@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/adoptFragment">
+
+    <fragment
+        android:id="@+id/adoptFragment"
+        android:name="com.iamcheng5.pet.AdoptFragment"
+        android:label="fragment_adopt"
+        tools:layout="@layout/fragment_adopt" />
+    <fragment
+        android:id="@+id/bookFragment"
+        android:name="com.iamcheng5.pet.BookFragment"
+        android:label="fragment_book"
+        tools:layout="@layout/fragment_book" />
+    <action
+        android:id="@+id/action_global_adoptFragment"
+        app:destination="@id/adoptFragment" />
+    <action
+        android:id="@+id/action_global_bookFragment"
+        app:destination="@id/bookFragment" />
+
+</navigation>
